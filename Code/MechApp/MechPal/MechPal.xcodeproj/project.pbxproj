@@ -1,0 +1,444 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E535B7901D3E7FFD00CAE7DD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E535B78F1D3E7FFD00CAE7DD /* main.m */; };
+		E535B7931D3E7FFD00CAE7DD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E535B7921D3E7FFD00CAE7DD /* AppDelegate.m */; };
+		E535B7961D3E7FFD00CAE7DD /* MechPal.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E535B7941D3E7FFD00CAE7DD /* MechPal.xcdatamodeld */; };
+		E535B7991D3E7FFD00CAE7DD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E535B7981D3E7FFD00CAE7DD /* ViewController.m */; };
+		E535B79C1D3E7FFD00CAE7DD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E535B79A1D3E7FFD00CAE7DD /* Main.storyboard */; };
+		E535B79E1D3E7FFD00CAE7DD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E535B79D1D3E7FFD00CAE7DD /* Images.xcassets */; };
+		E535B7A11D3E7FFD00CAE7DD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E535B79F1D3E7FFD00CAE7DD /* LaunchScreen.xib */; };
+		E535B7AD1D3E7FFD00CAE7DD /* MechPalTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E535B7AC1D3E7FFD00CAE7DD /* MechPalTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E535B7A71D3E7FFD00CAE7DD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E535B7821D3E7FFD00CAE7DD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E535B7891D3E7FFD00CAE7DD;
+			remoteInfo = MechPal;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E535B78A1D3E7FFD00CAE7DD /* MechPal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MechPal.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E535B78E1D3E7FFD00CAE7DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E535B78F1D3E7FFD00CAE7DD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E535B7911D3E7FFD00CAE7DD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E535B7921D3E7FFD00CAE7DD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E535B7951D3E7FFD00CAE7DD /* MechPal.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MechPal.xcdatamodel; sourceTree = "<group>"; };
+		E535B7971D3E7FFD00CAE7DD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E535B7981D3E7FFD00CAE7DD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E535B79B1D3E7FFD00CAE7DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E535B79D1D3E7FFD00CAE7DD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		E535B7A01D3E7FFD00CAE7DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		E535B7A61D3E7FFD00CAE7DD /* MechPalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MechPalTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E535B7AB1D3E7FFD00CAE7DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E535B7AC1D3E7FFD00CAE7DD /* MechPalTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MechPalTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E535B7871D3E7FFD00CAE7DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E535B7A31D3E7FFD00CAE7DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E535B7811D3E7FFD00CAE7DD = {
+			isa = PBXGroup;
+			children = (
+				E535B78C1D3E7FFD00CAE7DD /* MechPal */,
+				E535B7A91D3E7FFD00CAE7DD /* MechPalTests */,
+				E535B78B1D3E7FFD00CAE7DD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E535B78B1D3E7FFD00CAE7DD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E535B78A1D3E7FFD00CAE7DD /* MechPal.app */,
+				E535B7A61D3E7FFD00CAE7DD /* MechPalTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E535B78C1D3E7FFD00CAE7DD /* MechPal */ = {
+			isa = PBXGroup;
+			children = (
+				E535B7911D3E7FFD00CAE7DD /* AppDelegate.h */,
+				E535B7921D3E7FFD00CAE7DD /* AppDelegate.m */,
+				E535B7971D3E7FFD00CAE7DD /* ViewController.h */,
+				E535B7981D3E7FFD00CAE7DD /* ViewController.m */,
+				E535B79A1D3E7FFD00CAE7DD /* Main.storyboard */,
+				E535B79D1D3E7FFD00CAE7DD /* Images.xcassets */,
+				E535B79F1D3E7FFD00CAE7DD /* LaunchScreen.xib */,
+				E535B7941D3E7FFD00CAE7DD /* MechPal.xcdatamodeld */,
+				E535B78D1D3E7FFD00CAE7DD /* Supporting Files */,
+			);
+			path = MechPal;
+			sourceTree = "<group>";
+		};
+		E535B78D1D3E7FFD00CAE7DD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E535B78E1D3E7FFD00CAE7DD /* Info.plist */,
+				E535B78F1D3E7FFD00CAE7DD /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E535B7A91D3E7FFD00CAE7DD /* MechPalTests */ = {
+			isa = PBXGroup;
+			children = (
+				E535B7AC1D3E7FFD00CAE7DD /* MechPalTests.m */,
+				E535B7AA1D3E7FFD00CAE7DD /* Supporting Files */,
+			);
+			path = MechPalTests;
+			sourceTree = "<group>";
+		};
+		E535B7AA1D3E7FFD00CAE7DD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E535B7AB1D3E7FFD00CAE7DD /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E535B7891D3E7FFD00CAE7DD /* MechPal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E535B7B01D3E7FFD00CAE7DD /* Build configuration list for PBXNativeTarget "MechPal" */;
+			buildPhases = (
+				E535B7861D3E7FFD00CAE7DD /* Sources */,
+				E535B7871D3E7FFD00CAE7DD /* Frameworks */,
+				E535B7881D3E7FFD00CAE7DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MechPal;
+			productName = MechPal;
+			productReference = E535B78A1D3E7FFD00CAE7DD /* MechPal.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E535B7A51D3E7FFD00CAE7DD /* MechPalTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E535B7B31D3E7FFD00CAE7DD /* Build configuration list for PBXNativeTarget "MechPalTests" */;
+			buildPhases = (
+				E535B7A21D3E7FFD00CAE7DD /* Sources */,
+				E535B7A31D3E7FFD00CAE7DD /* Frameworks */,
+				E535B7A41D3E7FFD00CAE7DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E535B7A81D3E7FFD00CAE7DD /* PBXTargetDependency */,
+			);
+			name = MechPalTests;
+			productName = MechPalTests;
+			productReference = E535B7A61D3E7FFD00CAE7DD /* MechPalTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E535B7821D3E7FFD00CAE7DD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = ilabafrica;
+				TargetAttributes = {
+					E535B7891D3E7FFD00CAE7DD = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					E535B7A51D3E7FFD00CAE7DD = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = E535B7891D3E7FFD00CAE7DD;
+					};
+				};
+			};
+			buildConfigurationList = E535B7851D3E7FFD00CAE7DD /* Build configuration list for PBXProject "MechPal" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E535B7811D3E7FFD00CAE7DD;
+			productRefGroup = E535B78B1D3E7FFD00CAE7DD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E535B7891D3E7FFD00CAE7DD /* MechPal */,
+				E535B7A51D3E7FFD00CAE7DD /* MechPalTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E535B7881D3E7FFD00CAE7DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E535B79C1D3E7FFD00CAE7DD /* Main.storyboard in Resources */,
+				E535B7A11D3E7FFD00CAE7DD /* LaunchScreen.xib in Resources */,
+				E535B79E1D3E7FFD00CAE7DD /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E535B7A41D3E7FFD00CAE7DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E535B7861D3E7FFD00CAE7DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E535B7931D3E7FFD00CAE7DD /* AppDelegate.m in Sources */,
+				E535B7901D3E7FFD00CAE7DD /* main.m in Sources */,
+				E535B7991D3E7FFD00CAE7DD /* ViewController.m in Sources */,
+				E535B7961D3E7FFD00CAE7DD /* MechPal.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E535B7A21D3E7FFD00CAE7DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E535B7AD1D3E7FFD00CAE7DD /* MechPalTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E535B7A81D3E7FFD00CAE7DD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E535B7891D3E7FFD00CAE7DD /* MechPal */;
+			targetProxy = E535B7A71D3E7FFD00CAE7DD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E535B79A1D3E7FFD00CAE7DD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E535B79B1D3E7FFD00CAE7DD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E535B79F1D3E7FFD00CAE7DD /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E535B7A01D3E7FFD00CAE7DD /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E535B7AE1D3E7FFD00CAE7DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E535B7AF1D3E7FFD00CAE7DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E535B7B11D3E7FFD00CAE7DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MechPal/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E535B7B21D3E7FFD00CAE7DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MechPal/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E535B7B41D3E7FFD00CAE7DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MechPalTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MechPal.app/MechPal";
+			};
+			name = Debug;
+		};
+		E535B7B51D3E7FFD00CAE7DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MechPalTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MechPal.app/MechPal";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E535B7851D3E7FFD00CAE7DD /* Build configuration list for PBXProject "MechPal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E535B7AE1D3E7FFD00CAE7DD /* Debug */,
+				E535B7AF1D3E7FFD00CAE7DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E535B7B01D3E7FFD00CAE7DD /* Build configuration list for PBXNativeTarget "MechPal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E535B7B11D3E7FFD00CAE7DD /* Debug */,
+				E535B7B21D3E7FFD00CAE7DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E535B7B31D3E7FFD00CAE7DD /* Build configuration list for PBXNativeTarget "MechPalTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E535B7B41D3E7FFD00CAE7DD /* Debug */,
+				E535B7B51D3E7FFD00CAE7DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		E535B7941D3E7FFD00CAE7DD /* MechPal.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E535B7951D3E7FFD00CAE7DD /* MechPal.xcdatamodel */,
+			);
+			currentVersion = E535B7951D3E7FFD00CAE7DD /* MechPal.xcdatamodel */;
+			path = MechPal.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = E535B7821D3E7FFD00CAE7DD /* Project object */;
+}
