@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A1A9D96E1D52385A00322F35 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1A9D96D1D52385A00322F35 /* MapKit.framework */; };
 		A1FE92801D51EFC70006EBAE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A1FE927F1D51EFC70006EBAE /* main.m */; };
 		A1FE92831D51EFC70006EBAE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A1FE92821D51EFC70006EBAE /* AppDelegate.m */; };
 		A1FE92861D51EFC70006EBAE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1FE92851D51EFC70006EBAE /* ViewController.m */; };
@@ -43,6 +44,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A1A9D96D1D52385A00322F35 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		A1FE927B1D51EFC70006EBAE /* MechPal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MechPal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1FE927F1D51EFC70006EBAE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A1FE92811D51EFC70006EBAE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -74,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A1A9D96E1D52385A00322F35 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -97,6 +100,7 @@
 		A1FE92721D51EFC60006EBAE = {
 			isa = PBXGroup;
 			children = (
+				A1A9D96D1D52385A00322F35 /* MapKit.framework */,
 				A1FE927D1D51EFC70006EBAE /* MechPal */,
 				A1FE929A1D51EFC70006EBAE /* MechPalTests */,
 				A1FE92A51D51EFC70006EBAE /* MechPalUITests */,
@@ -528,6 +532,7 @@
 				A1FE92AD1D51EFC70006EBAE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A1FE92AE1D51EFC70006EBAE /* Build configuration list for PBXNativeTarget "MechPalTests" */ = {
 			isa = XCConfigurationList;
@@ -536,6 +541,7 @@
 				A1FE92B01D51EFC70006EBAE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A1FE92B11D51EFC70006EBAE /* Build configuration list for PBXNativeTarget "MechPalUITests" */ = {
 			isa = XCConfigurationList;
@@ -544,6 +550,7 @@
 				A1FE92B31D51EFC70006EBAE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
