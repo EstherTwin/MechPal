@@ -1,0 +1,564 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A1FE92801D51EFC70006EBAE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A1FE927F1D51EFC70006EBAE /* main.m */; };
+		A1FE92831D51EFC70006EBAE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A1FE92821D51EFC70006EBAE /* AppDelegate.m */; };
+		A1FE92861D51EFC70006EBAE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1FE92851D51EFC70006EBAE /* ViewController.m */; };
+		A1FE92891D51EFC70006EBAE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1FE92871D51EFC70006EBAE /* Main.storyboard */; };
+		A1FE928C1D51EFC70006EBAE /* MechPal.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A1FE928A1D51EFC70006EBAE /* MechPal.xcdatamodeld */; };
+		A1FE928E1D51EFC70006EBAE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1FE928D1D51EFC70006EBAE /* Assets.xcassets */; };
+		A1FE92911D51EFC70006EBAE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1FE928F1D51EFC70006EBAE /* LaunchScreen.storyboard */; };
+		A1FE929C1D51EFC70006EBAE /* MechPalTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A1FE929B1D51EFC70006EBAE /* MechPalTests.m */; };
+		A1FE92A71D51EFC70006EBAE /* MechPalUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A1FE92A61D51EFC70006EBAE /* MechPalUITests.m */; };
+		A1FE92B51D52201C0006EBAE /* profile.png in Resources */ = {isa = PBXBuildFile; fileRef = A1FE92B41D52201C0006EBAE /* profile.png */; };
+		A1FE92B71D5220320006EBAE /* view.png in Resources */ = {isa = PBXBuildFile; fileRef = A1FE92B61D5220320006EBAE /* view.png */; };
+		A1FE92B91D5220DF0006EBAE /* viewprofile.png in Resources */ = {isa = PBXBuildFile; fileRef = A1FE92B81D5220DF0006EBAE /* viewprofile.png */; };
+		A1FE92BB1D52227B0006EBAE /* carissue.png in Resources */ = {isa = PBXBuildFile; fileRef = A1FE92BA1D52227B0006EBAE /* carissue.png */; };
+		A1FE92BD1D52232F0006EBAE /* showinmap.png in Resources */ = {isa = PBXBuildFile; fileRef = A1FE92BC1D52232F0006EBAE /* showinmap.png */; };
+		A1FE92BF1D5224030006EBAE /* maps.png in Resources */ = {isa = PBXBuildFile; fileRef = A1FE92BE1D5224030006EBAE /* maps.png */; };
+		A1FE92C11D5224800006EBAE /* map.png in Resources */ = {isa = PBXBuildFile; fileRef = A1FE92C01D5224800006EBAE /* map.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A1FE92981D51EFC70006EBAE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A1FE92731D51EFC60006EBAE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A1FE927A1D51EFC60006EBAE;
+			remoteInfo = MechPal;
+		};
+		A1FE92A31D51EFC70006EBAE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A1FE92731D51EFC60006EBAE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A1FE927A1D51EFC60006EBAE;
+			remoteInfo = MechPal;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A1FE927B1D51EFC70006EBAE /* MechPal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MechPal.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1FE927F1D51EFC70006EBAE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A1FE92811D51EFC70006EBAE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A1FE92821D51EFC70006EBAE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A1FE92841D51EFC70006EBAE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A1FE92851D51EFC70006EBAE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A1FE92881D51EFC70006EBAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A1FE928B1D51EFC70006EBAE /* MechPal.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MechPal.xcdatamodel; sourceTree = "<group>"; };
+		A1FE928D1D51EFC70006EBAE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A1FE92901D51EFC70006EBAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A1FE92921D51EFC70006EBAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1FE92971D51EFC70006EBAE /* MechPalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MechPalTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1FE929B1D51EFC70006EBAE /* MechPalTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MechPalTests.m; sourceTree = "<group>"; };
+		A1FE929D1D51EFC70006EBAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1FE92A21D51EFC70006EBAE /* MechPalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MechPalUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1FE92A61D51EFC70006EBAE /* MechPalUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MechPalUITests.m; sourceTree = "<group>"; };
+		A1FE92A81D51EFC70006EBAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1FE92B41D52201C0006EBAE /* profile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = profile.png; sourceTree = "<group>"; };
+		A1FE92B61D5220320006EBAE /* view.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = view.png; sourceTree = "<group>"; };
+		A1FE92B81D5220DF0006EBAE /* viewprofile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = viewprofile.png; sourceTree = "<group>"; };
+		A1FE92BA1D52227B0006EBAE /* carissue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = carissue.png; sourceTree = "<group>"; };
+		A1FE92BC1D52232F0006EBAE /* showinmap.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = showinmap.png; sourceTree = "<group>"; };
+		A1FE92BE1D5224030006EBAE /* maps.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = maps.png; sourceTree = "<group>"; };
+		A1FE92C01D5224800006EBAE /* map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = map.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A1FE92781D51EFC60006EBAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1FE92941D51EFC70006EBAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1FE929F1D51EFC70006EBAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A1FE92721D51EFC60006EBAE = {
+			isa = PBXGroup;
+			children = (
+				A1FE927D1D51EFC70006EBAE /* MechPal */,
+				A1FE929A1D51EFC70006EBAE /* MechPalTests */,
+				A1FE92A51D51EFC70006EBAE /* MechPalUITests */,
+				A1FE927C1D51EFC70006EBAE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A1FE927C1D51EFC70006EBAE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A1FE927B1D51EFC70006EBAE /* MechPal.app */,
+				A1FE92971D51EFC70006EBAE /* MechPalTests.xctest */,
+				A1FE92A21D51EFC70006EBAE /* MechPalUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A1FE927D1D51EFC70006EBAE /* MechPal */ = {
+			isa = PBXGroup;
+			children = (
+				A1FE92811D51EFC70006EBAE /* AppDelegate.h */,
+				A1FE92821D51EFC70006EBAE /* AppDelegate.m */,
+				A1FE92841D51EFC70006EBAE /* ViewController.h */,
+				A1FE92851D51EFC70006EBAE /* ViewController.m */,
+				A1FE92871D51EFC70006EBAE /* Main.storyboard */,
+				A1FE92B41D52201C0006EBAE /* profile.png */,
+				A1FE928D1D51EFC70006EBAE /* Assets.xcassets */,
+				A1FE92C01D5224800006EBAE /* map.png */,
+				A1FE92BE1D5224030006EBAE /* maps.png */,
+				A1FE92BC1D52232F0006EBAE /* showinmap.png */,
+				A1FE92BA1D52227B0006EBAE /* carissue.png */,
+				A1FE92B81D5220DF0006EBAE /* viewprofile.png */,
+				A1FE92B61D5220320006EBAE /* view.png */,
+				A1FE928F1D51EFC70006EBAE /* LaunchScreen.storyboard */,
+				A1FE92921D51EFC70006EBAE /* Info.plist */,
+				A1FE928A1D51EFC70006EBAE /* MechPal.xcdatamodeld */,
+				A1FE927E1D51EFC70006EBAE /* Supporting Files */,
+			);
+			path = MechPal;
+			sourceTree = "<group>";
+		};
+		A1FE927E1D51EFC70006EBAE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A1FE927F1D51EFC70006EBAE /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A1FE929A1D51EFC70006EBAE /* MechPalTests */ = {
+			isa = PBXGroup;
+			children = (
+				A1FE929B1D51EFC70006EBAE /* MechPalTests.m */,
+				A1FE929D1D51EFC70006EBAE /* Info.plist */,
+			);
+			path = MechPalTests;
+			sourceTree = "<group>";
+		};
+		A1FE92A51D51EFC70006EBAE /* MechPalUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A1FE92A61D51EFC70006EBAE /* MechPalUITests.m */,
+				A1FE92A81D51EFC70006EBAE /* Info.plist */,
+			);
+			path = MechPalUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A1FE927A1D51EFC60006EBAE /* MechPal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1FE92AB1D51EFC70006EBAE /* Build configuration list for PBXNativeTarget "MechPal" */;
+			buildPhases = (
+				A1FE92771D51EFC60006EBAE /* Sources */,
+				A1FE92781D51EFC60006EBAE /* Frameworks */,
+				A1FE92791D51EFC60006EBAE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MechPal;
+			productName = MechPal;
+			productReference = A1FE927B1D51EFC70006EBAE /* MechPal.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A1FE92961D51EFC70006EBAE /* MechPalTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1FE92AE1D51EFC70006EBAE /* Build configuration list for PBXNativeTarget "MechPalTests" */;
+			buildPhases = (
+				A1FE92931D51EFC70006EBAE /* Sources */,
+				A1FE92941D51EFC70006EBAE /* Frameworks */,
+				A1FE92951D51EFC70006EBAE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A1FE92991D51EFC70006EBAE /* PBXTargetDependency */,
+			);
+			name = MechPalTests;
+			productName = MechPalTests;
+			productReference = A1FE92971D51EFC70006EBAE /* MechPalTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A1FE92A11D51EFC70006EBAE /* MechPalUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1FE92B11D51EFC70006EBAE /* Build configuration list for PBXNativeTarget "MechPalUITests" */;
+			buildPhases = (
+				A1FE929E1D51EFC70006EBAE /* Sources */,
+				A1FE929F1D51EFC70006EBAE /* Frameworks */,
+				A1FE92A01D51EFC70006EBAE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A1FE92A41D51EFC70006EBAE /* PBXTargetDependency */,
+			);
+			name = MechPalUITests;
+			productName = MechPalUITests;
+			productReference = A1FE92A21D51EFC70006EBAE /* MechPalUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A1FE92731D51EFC60006EBAE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = ilabafrica;
+				TargetAttributes = {
+					A1FE927A1D51EFC60006EBAE = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					A1FE92961D51EFC70006EBAE = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = A1FE927A1D51EFC60006EBAE;
+					};
+					A1FE92A11D51EFC70006EBAE = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = A1FE927A1D51EFC60006EBAE;
+					};
+				};
+			};
+			buildConfigurationList = A1FE92761D51EFC60006EBAE /* Build configuration list for PBXProject "MechPal" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A1FE92721D51EFC60006EBAE;
+			productRefGroup = A1FE927C1D51EFC70006EBAE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A1FE927A1D51EFC60006EBAE /* MechPal */,
+				A1FE92961D51EFC70006EBAE /* MechPalTests */,
+				A1FE92A11D51EFC70006EBAE /* MechPalUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A1FE92791D51EFC60006EBAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1FE92911D51EFC70006EBAE /* LaunchScreen.storyboard in Resources */,
+				A1FE92B71D5220320006EBAE /* view.png in Resources */,
+				A1FE92BF1D5224030006EBAE /* maps.png in Resources */,
+				A1FE92BB1D52227B0006EBAE /* carissue.png in Resources */,
+				A1FE92C11D5224800006EBAE /* map.png in Resources */,
+				A1FE92B91D5220DF0006EBAE /* viewprofile.png in Resources */,
+				A1FE928E1D51EFC70006EBAE /* Assets.xcassets in Resources */,
+				A1FE92891D51EFC70006EBAE /* Main.storyboard in Resources */,
+				A1FE92BD1D52232F0006EBAE /* showinmap.png in Resources */,
+				A1FE92B51D52201C0006EBAE /* profile.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1FE92951D51EFC70006EBAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1FE92A01D51EFC70006EBAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A1FE92771D51EFC60006EBAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1FE92861D51EFC70006EBAE /* ViewController.m in Sources */,
+				A1FE92831D51EFC70006EBAE /* AppDelegate.m in Sources */,
+				A1FE928C1D51EFC70006EBAE /* MechPal.xcdatamodeld in Sources */,
+				A1FE92801D51EFC70006EBAE /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1FE92931D51EFC70006EBAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1FE929C1D51EFC70006EBAE /* MechPalTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1FE929E1D51EFC70006EBAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1FE92A71D51EFC70006EBAE /* MechPalUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A1FE92991D51EFC70006EBAE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A1FE927A1D51EFC60006EBAE /* MechPal */;
+			targetProxy = A1FE92981D51EFC70006EBAE /* PBXContainerItemProxy */;
+		};
+		A1FE92A41D51EFC70006EBAE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A1FE927A1D51EFC60006EBAE /* MechPal */;
+			targetProxy = A1FE92A31D51EFC70006EBAE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A1FE92871D51EFC70006EBAE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A1FE92881D51EFC70006EBAE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A1FE928F1D51EFC70006EBAE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A1FE92901D51EFC70006EBAE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A1FE92A91D51EFC70006EBAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A1FE92AA1D51EFC70006EBAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A1FE92AC1D51EFC70006EBAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MechPal/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ilabafrica.MechPal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A1FE92AD1D51EFC70006EBAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MechPal/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ilabafrica.MechPal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A1FE92AF1D51EFC70006EBAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MechPalTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ilabafrica.MechPalTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MechPal.app/MechPal";
+			};
+			name = Debug;
+		};
+		A1FE92B01D51EFC70006EBAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MechPalTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ilabafrica.MechPalTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MechPal.app/MechPal";
+			};
+			name = Release;
+		};
+		A1FE92B21D51EFC70006EBAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MechPalUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ilabafrica.MechPalUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MechPal;
+			};
+			name = Debug;
+		};
+		A1FE92B31D51EFC70006EBAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MechPalUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ilabafrica.MechPalUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MechPal;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A1FE92761D51EFC60006EBAE /* Build configuration list for PBXProject "MechPal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1FE92A91D51EFC70006EBAE /* Debug */,
+				A1FE92AA1D51EFC70006EBAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1FE92AB1D51EFC70006EBAE /* Build configuration list for PBXNativeTarget "MechPal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1FE92AC1D51EFC70006EBAE /* Debug */,
+				A1FE92AD1D51EFC70006EBAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A1FE92AE1D51EFC70006EBAE /* Build configuration list for PBXNativeTarget "MechPalTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1FE92AF1D51EFC70006EBAE /* Debug */,
+				A1FE92B01D51EFC70006EBAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A1FE92B11D51EFC70006EBAE /* Build configuration list for PBXNativeTarget "MechPalUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1FE92B21D51EFC70006EBAE /* Debug */,
+				A1FE92B31D51EFC70006EBAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A1FE928A1D51EFC70006EBAE /* MechPal.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A1FE928B1D51EFC70006EBAE /* MechPal.xcdatamodel */,
+			);
+			currentVersion = A1FE928B1D51EFC70006EBAE /* MechPal.xcdatamodel */;
+			path = MechPal.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A1FE92731D51EFC60006EBAE /* Project object */;
+}

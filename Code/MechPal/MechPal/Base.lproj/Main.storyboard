@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="jrz-vO-gxE">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--HOME-->
+        <scene sceneID="MgV-94-0bd">
+            <objects>
+                <viewController id="lbr-bK-nD7" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="wA1-ac-B0E"/>
+                        <viewControllerLayoutGuide type="bottom" id="ewx-9K-55d"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="sz9-Z6-jfe">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OZn-xZ-hp4">
+                                <rect key="frame" x="40" y="199" width="238" height="30"/>
+                                <color key="backgroundColor" red="0.5" green="0.0" blue="0.5" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="VIEW ISSUES">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="QJb-fN-KkU" kind="push" id="yQ8-l3-Rot"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="p5J-hg-Kh7">
+                                <rect key="frame" x="40" y="126" width="238" height="30"/>
+                                <color key="backgroundColor" red="0.5" green="0.0" blue="0.5" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="VIEW MECHANIC">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="tHp-HM-5nM" kind="push" id="G7X-z6-IQe"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="HOME" id="Faj-Tt-YrG"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Mce-vL-E8P" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="484" y="-29"/>
+        </scene>
+        <!--MECHANIC PROFILE-->
+        <scene sceneID="oMI-JI-EnB">
+            <objects>
+                <viewController id="bYx-ds-TXA" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="WIQ-vP-OmG"/>
+                        <viewControllerLayoutGuide type="bottom" id="0Xh-U8-Rfo"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="qTd-Vl-Xwu">
+                        <rect key="frame" x="0.0" y="0.0" width="400" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="MECHANIC PROFILE" id="Tve-3D-Gz4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7a6-et-JQD" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2021" y="705"/>
+        </scene>
+        <!--VIEW MECHANICS-->
+        <scene sceneID="9BZ-es-Rij">
+            <objects>
+                <viewController id="Wt9-Ci-beY" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="ffk-WD-K65"/>
+                        <viewControllerLayoutGuide type="bottom" id="AW3-2f-aFw"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="oa4-xm-cq7">
+                        <rect key="frame" x="0.0" y="0.0" width="400" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="VIEW MECHANICS" id="tT5-o0-hWQ"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="d8s-wl-mhY" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2021" y="-29"/>
+        </scene>
+        <!--VIEW MECHANIC-->
+        <scene sceneID="gVA-lM-jFR">
+            <objects>
+                <tabBarController id="tHp-HM-5nM" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" title="VIEW MECHANIC" id="1ry-em-kRS"/>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="400" height="600"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="Oue-2i-jY9">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="I2P-b5-GLX" kind="relationship" relationship="viewControllers" id="zwP-P4-3Y6"/>
+                        <segue destination="Eje-xD-sSO" kind="relationship" relationship="viewControllers" id="lqX-bR-EP8"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="NJN-pF-jU5" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="994" y="-29"/>
+        </scene>
+        <!--View Mechanic-->
+        <scene sceneID="ZfL-qe-Na4">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="I2P-b5-GLX" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="View Mechanic" image="view.png" id="pFz-Sw-eAi"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="JdI-dw-bPd">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="Wt9-Ci-beY" kind="relationship" relationship="rootViewController" id="Ikl-Qx-PVe"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="a1o-dD-xpN" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1531" y="-29"/>
+        </scene>
+        <!--Mechanic Profile-->
+        <scene sceneID="XJE-8y-XNZ">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Eje-xD-sSO" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Mechanic Profile" image="viewprofile.png" id="Th8-DC-HaJ"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="uZR-I2-hMZ">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="bYx-ds-TXA" kind="relationship" relationship="rootViewController" id="jMj-8p-F1W"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="mj9-dJ-Ejl" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1492" y="696"/>
+        </scene>
+        <!--VIEW CAR PROBLEMS-->
+        <scene sceneID="DCz-qh-BSd">
+            <objects>
+                <viewController id="pzV-VC-4UW" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="DJy-vG-evu"/>
+                        <viewControllerLayoutGuide type="bottom" id="bAr-UB-DRL"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="aAQ-RK-CQV">
+                        <rect key="frame" x="0.0" y="0.0" width="400" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="VIEW CAR PROBLEMS" id="pmn-WA-PwC">
+                        <barButtonItem key="rightBarButtonItem" style="plain" id="M4I-zG-s7J">
+                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="700-OL-rt5">
+                                <rect key="frame" x="350" y="7" width="30" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal">
+                                    <color key="titleColor" red="0.5" green="0.0" blue="0.5" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
+                        </barButtonItem>
+                    </navigationItem>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="400" height="600"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="aYo-fp-Caz" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2021" y="1445"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="apW-pp-pBj">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="jrz-vO-gxE" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="400" height="600"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="VXb-IN-lek">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="lbr-bK-nD7" kind="relationship" relationship="rootViewController" id="3ZS-rF-7dm"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ZkM-mJ-05J" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-85" y="-29"/>
+        </scene>
+        <!--ADD CAR PROBLEM-->
+        <scene sceneID="k49-RB-fy8">
+            <objects>
+                <viewController id="rVf-UG-rd3" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="QeY-bp-Z8E"/>
+                        <viewControllerLayoutGuide type="bottom" id="o1t-mV-g2v"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="F3w-a2-ECU">
+                        <rect key="frame" x="0.0" y="0.0" width="400" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="ADD CAR PROBLEM" id="D7F-ud-dQb"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="BRU-ue-UFw" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="657" y="1949"/>
+        </scene>
+        <!--VIEW ISSUES-->
+        <scene sceneID="O9k-fL-qPq">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="QJb-fN-KkU" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" title="VIEW ISSUES" id="jyO-W3-fEs">
+                        <barButtonItem key="rightBarButtonItem" style="plain" id="C06-Am-fr3">
+                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="x8u-T1-8eG">
+                                <rect key="frame" x="344" y="7" width="36" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="ADD "/>
+                                <connections>
+                                    <segue destination="rVf-UG-rd3" kind="push" id="SSd-y7-4oQ"/>
+                                </connections>
+                            </button>
+                        </barButtonItem>
+                    </navigationItem>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="400" height="600"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="zbt-HX-hGF">
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="HPy-XE-mSg" kind="relationship" relationship="viewControllers" id="Z0M-9H-DP5"/>
+                        <segue destination="71B-Jy-hA2" kind="relationship" relationship="viewControllers" id="COg-ub-TbQ"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="BXg-oA-ZFz" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="775" y="1126"/>
+        </scene>
+        <!--View Car Problems-->
+        <scene sceneID="e6V-Oi-TCG">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="HPy-XE-mSg" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="View Car Problems" image="carissue.png" id="RBj-jF-8qj"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="NSx-6S-CET">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="pzV-VC-4UW" kind="relationship" relationship="rootViewController" id="lT6-zG-fYf"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Qrl-Gr-Kz3" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1487" y="1428"/>
+        </scene>
+        <!--VIEW ON MAP-->
+        <scene sceneID="0DB-6g-er7">
+            <objects>
+                <viewController id="2Vq-28-u0s" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="pfx-82-xnp"/>
+                        <viewControllerLayoutGuide type="bottom" id="a15-pn-fGj"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="XrL-uD-xIH">
+                        <rect key="frame" x="0.0" y="0.0" width="400" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="VIEW ON MAP" id="i1i-gi-Skb"/>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="400" height="600"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="k22-t0-FUj" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2021" y="2147"/>
+        </scene>
+        <!--View on Map-->
+        <scene sceneID="f3b-IJ-8Uu">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="71B-Jy-hA2" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="View on Map" image="maps.png" id="Xo6-dB-fQz"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="idh-ZJ-0i8">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="2Vq-28-u0s" kind="relationship" relationship="rootViewController" id="a1d-59-ZA4"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="C2s-yd-g8m" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1323" y="2195"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="carissue.png" width="32" height="32"/>
+        <image name="maps.png" width="32" height="31"/>
+        <image name="view.png" width="32" height="32"/>
+        <image name="viewprofile.png" width="32" height="32"/>
+    </resources>
+</document>
