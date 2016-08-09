@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="jrz-vO-gxE">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="jrz-vO-gxE">
     <dependencies>
         <deployment identifier="iOS"/>
+        <development version="5100" identifier="xcode"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
     </dependencies>
     <scenes>
@@ -55,7 +56,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Mce-vL-E8P" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="484" y="-29"/>
+            <point key="canvasLocation" x="258.13333333333333" y="-27.453333333333333"/>
         </scene>
         <!--MECHANIC PROFILE-->
         <scene sceneID="oMI-JI-EnB">
@@ -74,12 +75,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7a6-et-JQD" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2021" y="705"/>
+            <point key="canvasLocation" x="1077.8666666666666" y="667.39999999999998"/>
         </scene>
         <!--VIEW MECHANICS-->
         <scene sceneID="9BZ-es-Rij">
             <objects>
-                <viewController id="Wt9-Ci-beY" sceneMemberID="viewController">
+                <viewController id="Wt9-Ci-beY" customClass="ViewMechViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="ffk-WD-K65"/>
                         <viewControllerLayoutGuide type="bottom" id="AW3-2f-aFw"/>
@@ -94,23 +95,50 @@
                                 <items/>
                             </tabBar>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h9g-hm-hdO">
-                                <rect key="frame" x="6" y="512" width="53" height="30"/>
+                                <rect key="frame" x="0.0" y="472" width="53" height="30"/>
                                 <color key="backgroundColor" red="0.5" green="0.0" blue="0.5" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="Refresh">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                             </button>
                             <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" mapType="standard" showsUserLocation="YES" translatesAutoresizingMaskIntoConstraints="NO" id="CEb-VK-lFS">
-                                <rect key="frame" x="0.0" y="64" width="400" height="440"/>
+                                <rect key="frame" x="0.0" y="64" width="400" height="410"/>
+                                <connections>
+                                    <outlet property="delegate" destination="Wt9-Ci-beY" id="zb2-RC-jfs"/>
+                                </connections>
                             </mapView>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="H08-tX-m4B">
+                                <rect key="frame" x="0.0" y="64" width="227" height="29"/>
+                                <segments>
+                                    <segment title="Starndard"/>
+                                    <segment title="Satellite"/>
+                                    <segment title="Hybrid"/>
+                                </segments>
+                                <connections>
+                                    <action selector="setMapType:" destination="Wt9-Ci-beY" eventType="valueChanged" id="9p6-OL-1h9"/>
+                                </connections>
+                            </segmentedControl>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fxz-Xu-cSi">
+                                <rect key="frame" x="241" y="472" width="115" height="30"/>
+                                <color key="backgroundColor" red="0.5" green="0.0" blue="0.5" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Current Location">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="zoomIn:" destination="Wt9-Ci-beY" eventType="touchUpInside" id="A42-cT-zaZ"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" title="VIEW MECHANICS" id="tT5-o0-hWQ"/>
+                    <connections>
+                        <outlet property="mapView" destination="CEb-VK-lFS" id="cgv-Vf-hVD"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="d8s-wl-mhY" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2021" y="-29"/>
+            <point key="canvasLocation" x="1319" y="-39"/>
         </scene>
         <!--VIEW MECHANIC-->
         <scene sceneID="gVA-lM-jFR">
@@ -131,7 +159,7 @@
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="NJN-pF-jU5" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="994" y="-29"/>
+            <point key="canvasLocation" x="530.13333333333333" y="-27.453333333333333"/>
         </scene>
         <!--View Mechanic-->
         <scene sceneID="ZfL-qe-Na4">
@@ -150,7 +178,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="a1o-dD-xpN" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1531" y="-29"/>
+            <point key="canvasLocation" x="816.5333333333333" y="-27.453333333333333"/>
         </scene>
         <!--Mechanic Profile-->
         <scene sceneID="XJE-8y-XNZ">
@@ -169,7 +197,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mj9-dJ-Ejl" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1492" y="696"/>
+            <point key="canvasLocation" x="795.73333333333335" y="658.88"/>
         </scene>
         <!--VIEW CAR PROBLEMS-->
         <scene sceneID="DCz-qh-BSd">
@@ -200,7 +228,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="aYo-fp-Caz" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2021" y="1445"/>
+            <point key="canvasLocation" x="1077.8666666666666" y="1367.9333333333334"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="apW-pp-pBj">
@@ -220,7 +248,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ZkM-mJ-05J" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-85" y="-29"/>
+            <point key="canvasLocation" x="-45.333333333333336" y="-27.453333333333333"/>
         </scene>
         <!--ADD CAR PROBLEM-->
         <scene sceneID="k49-RB-fy8">
@@ -239,7 +267,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="BRU-ue-UFw" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="657" y="1949"/>
+            <point key="canvasLocation" x="350.39999999999998" y="1845.0533333333333"/>
         </scene>
         <!--VIEW ISSUES-->
         <scene sceneID="O9k-fL-qPq">
@@ -271,7 +299,7 @@
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="BXg-oA-ZFz" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="775" y="1126"/>
+            <point key="canvasLocation" x="413.33333333333331" y="1065.9466666666667"/>
         </scene>
         <!--View Car Problems-->
         <scene sceneID="e6V-Oi-TCG">
@@ -290,7 +318,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Qrl-Gr-Kz3" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1487" y="1428"/>
+            <point key="canvasLocation" x="793.06666666666661" y="1351.8399999999999"/>
         </scene>
         <!--VIEW ON MAP-->
         <scene sceneID="0DB-6g-er7">
@@ -328,7 +356,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="k22-t0-FUj" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2021" y="2147"/>
+            <point key="canvasLocation" x="1077.8666666666666" y="2032.4933333333333"/>
         </scene>
         <!--View on Map-->
         <scene sceneID="f3b-IJ-8Uu">
@@ -347,7 +375,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="C2s-yd-g8m" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1323" y="2195"/>
+            <point key="canvasLocation" x="705.60000000000002" y="2077.9333333333334"/>
         </scene>
     </scenes>
     <resources>

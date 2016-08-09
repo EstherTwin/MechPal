@@ -24,6 +24,8 @@
 		A1FE92BD1D52232F0006EBAE /* showinmap.png in Resources */ = {isa = PBXBuildFile; fileRef = A1FE92BC1D52232F0006EBAE /* showinmap.png */; };
 		A1FE92BF1D5224030006EBAE /* maps.png in Resources */ = {isa = PBXBuildFile; fileRef = A1FE92BE1D5224030006EBAE /* maps.png */; };
 		A1FE92C11D5224800006EBAE /* map.png in Resources */ = {isa = PBXBuildFile; fileRef = A1FE92C01D5224800006EBAE /* map.png */; };
+		E53BD8FB1D5A03DD00DB92FE /* ViewMechViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E53BD8FA1D5A03DD00DB92FE /* ViewMechViewController.m */; };
+		E53BD8FE1D5A055B00DB92FE /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E53BD8FD1D5A055B00DB92FE /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +71,9 @@
 		A1FE92BC1D52232F0006EBAE /* showinmap.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = showinmap.png; sourceTree = "<group>"; };
 		A1FE92BE1D5224030006EBAE /* maps.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = maps.png; sourceTree = "<group>"; };
 		A1FE92C01D5224800006EBAE /* map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = map.png; sourceTree = "<group>"; };
+		E53BD8F91D5A03DD00DB92FE /* ViewMechViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewMechViewController.h; sourceTree = "<group>"; };
+		E53BD8FA1D5A03DD00DB92FE /* ViewMechViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewMechViewController.m; sourceTree = "<group>"; };
+		E53BD8FD1D5A055B00DB92FE /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +81,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E53BD8FE1D5A055B00DB92FE /* CoreLocation.framework in Frameworks */,
 				A1A9D96E1D52385A00322F35 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -100,6 +106,7 @@
 		A1FE92721D51EFC60006EBAE = {
 			isa = PBXGroup;
 			children = (
+				E53BD8FD1D5A055B00DB92FE /* CoreLocation.framework */,
 				A1A9D96D1D52385A00322F35 /* MapKit.framework */,
 				A1FE927D1D51EFC70006EBAE /* MechPal */,
 				A1FE929A1D51EFC70006EBAE /* MechPalTests */,
@@ -137,6 +144,7 @@
 				A1FE928F1D51EFC70006EBAE /* LaunchScreen.storyboard */,
 				A1FE92921D51EFC70006EBAE /* Info.plist */,
 				A1FE928A1D51EFC70006EBAE /* MechPal.xcdatamodeld */,
+				E53BD8FC1D5A03EA00DB92FE /* controllers */,
 				A1FE927E1D51EFC70006EBAE /* Supporting Files */,
 			);
 			path = MechPal;
@@ -166,6 +174,15 @@
 				A1FE92A81D51EFC70006EBAE /* Info.plist */,
 			);
 			path = MechPalUITests;
+			sourceTree = "<group>";
+		};
+		E53BD8FC1D5A03EA00DB92FE /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				E53BD8F91D5A03DD00DB92FE /* ViewMechViewController.h */,
+				E53BD8FA1D5A03DD00DB92FE /* ViewMechViewController.m */,
+			);
+			name = controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -305,6 +322,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E53BD8FB1D5A03DD00DB92FE /* ViewMechViewController.m in Sources */,
 				A1FE92861D51EFC70006EBAE /* ViewController.m in Sources */,
 				A1FE92831D51EFC70006EBAE /* AppDelegate.m in Sources */,
 				A1FE928C1D51EFC70006EBAE /* MechPal.xcdatamodeld in Sources */,
