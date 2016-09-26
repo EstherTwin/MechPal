@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		90C2E5804A04D25480CC0991 /* libPods-MechPal.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 39BF0D4639789880ECF5FF06 /* libPods-MechPal.a */; };
+		97B11B7E47FC2019197E6A88 /* libPods-MechPalUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DB1EA7B6C1AE51666CABF606 /* libPods-MechPalUITests.a */; };
 		A1A9D96E1D52385A00322F35 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1A9D96D1D52385A00322F35 /* MapKit.framework */; };
 		A1FE92801D51EFC70006EBAE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A1FE927F1D51EFC70006EBAE /* main.m */; };
 		A1FE92831D51EFC70006EBAE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A1FE92821D51EFC70006EBAE /* AppDelegate.m */; };
@@ -24,6 +26,9 @@
 		A1FE92BD1D52232F0006EBAE /* showinmap.png in Resources */ = {isa = PBXBuildFile; fileRef = A1FE92BC1D52232F0006EBAE /* showinmap.png */; };
 		A1FE92BF1D5224030006EBAE /* maps.png in Resources */ = {isa = PBXBuildFile; fileRef = A1FE92BE1D5224030006EBAE /* maps.png */; };
 		A1FE92C11D5224800006EBAE /* map.png in Resources */ = {isa = PBXBuildFile; fileRef = A1FE92C01D5224800006EBAE /* map.png */; };
+		B37F2562FAC388312030FF69 /* libPods-MechPalTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9224894AD49223B9A04C07F2 /* libPods-MechPalTests.a */; };
+		E52153601D997E4600C14342 /* PreviewMechViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E521535F1D997E4600C14342 /* PreviewMechViewController.m */; };
+		E52153631D99828000C14342 /* PreviewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E52153621D99828000C14342 /* PreviewModel.m */; };
 		E53BD8FB1D5A03DD00DB92FE /* ViewMechViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E53BD8FA1D5A03DD00DB92FE /* ViewMechViewController.m */; };
 		E53BD8FE1D5A055B00DB92FE /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E53BD8FD1D5A055B00DB92FE /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
@@ -46,6 +51,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3032E330EF958547151AC6FE /* Pods-MechPalUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MechPalUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MechPalUITests/Pods-MechPalUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		39BF0D4639789880ECF5FF06 /* libPods-MechPal.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MechPal.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		75252D33FDCF5BD64C04B8D0 /* Pods-MechPalUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MechPalUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MechPalUITests/Pods-MechPalUITests.release.xcconfig"; sourceTree = "<group>"; };
+		8EBEF88AA2C9186B00583C78 /* Pods-MechPalTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MechPalTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MechPalTests/Pods-MechPalTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9224894AD49223B9A04C07F2 /* libPods-MechPalTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MechPalTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1A9D96D1D52385A00322F35 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		A1FE927B1D51EFC70006EBAE /* MechPal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MechPal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1FE927F1D51EFC70006EBAE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -71,9 +81,17 @@
 		A1FE92BC1D52232F0006EBAE /* showinmap.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = showinmap.png; sourceTree = "<group>"; };
 		A1FE92BE1D5224030006EBAE /* maps.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = maps.png; sourceTree = "<group>"; };
 		A1FE92C01D5224800006EBAE /* map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = map.png; sourceTree = "<group>"; };
+		A8AEE526322BB07A71D0F225 /* Pods-MechPal.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MechPal.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MechPal/Pods-MechPal.debug.xcconfig"; sourceTree = "<group>"; };
+		D6B5393C5A5ED774E8CB797C /* Pods-MechPal.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MechPal.release.xcconfig"; path = "Pods/Target Support Files/Pods-MechPal/Pods-MechPal.release.xcconfig"; sourceTree = "<group>"; };
+		DB1EA7B6C1AE51666CABF606 /* libPods-MechPalUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MechPalUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E521535E1D997E4600C14342 /* PreviewMechViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PreviewMechViewController.h; sourceTree = "<group>"; };
+		E521535F1D997E4600C14342 /* PreviewMechViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PreviewMechViewController.m; sourceTree = "<group>"; };
+		E52153611D99828000C14342 /* PreviewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PreviewModel.h; sourceTree = "<group>"; };
+		E52153621D99828000C14342 /* PreviewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PreviewModel.m; sourceTree = "<group>"; };
 		E53BD8F91D5A03DD00DB92FE /* ViewMechViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewMechViewController.h; sourceTree = "<group>"; };
 		E53BD8FA1D5A03DD00DB92FE /* ViewMechViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewMechViewController.m; sourceTree = "<group>"; };
 		E53BD8FD1D5A055B00DB92FE /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		FD95F9635436F689C259EC79 /* Pods-MechPalTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MechPalTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MechPalTests/Pods-MechPalTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +101,7 @@
 			files = (
 				E53BD8FE1D5A055B00DB92FE /* CoreLocation.framework in Frameworks */,
 				A1A9D96E1D52385A00322F35 /* MapKit.framework in Frameworks */,
+				90C2E5804A04D25480CC0991 /* libPods-MechPal.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,6 +109,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B37F2562FAC388312030FF69 /* libPods-MechPalTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -97,12 +117,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				97B11B7E47FC2019197E6A88 /* libPods-MechPalUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		355855059245C8DE259D00D2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				39BF0D4639789880ECF5FF06 /* libPods-MechPal.a */,
+				9224894AD49223B9A04C07F2 /* libPods-MechPalTests.a */,
+				DB1EA7B6C1AE51666CABF606 /* libPods-MechPalUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7451E42A81EF346AC19B32C7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A8AEE526322BB07A71D0F225 /* Pods-MechPal.debug.xcconfig */,
+				D6B5393C5A5ED774E8CB797C /* Pods-MechPal.release.xcconfig */,
+				8EBEF88AA2C9186B00583C78 /* Pods-MechPalTests.debug.xcconfig */,
+				FD95F9635436F689C259EC79 /* Pods-MechPalTests.release.xcconfig */,
+				3032E330EF958547151AC6FE /* Pods-MechPalUITests.debug.xcconfig */,
+				75252D33FDCF5BD64C04B8D0 /* Pods-MechPalUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		A1FE92721D51EFC60006EBAE = {
 			isa = PBXGroup;
 			children = (
@@ -112,6 +156,8 @@
 				A1FE929A1D51EFC70006EBAE /* MechPalTests */,
 				A1FE92A51D51EFC70006EBAE /* MechPalUITests */,
 				A1FE927C1D51EFC70006EBAE /* Products */,
+				7451E42A81EF346AC19B32C7 /* Pods */,
+				355855059245C8DE259D00D2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -146,6 +192,8 @@
 				A1FE928A1D51EFC70006EBAE /* MechPal.xcdatamodeld */,
 				E53BD8FC1D5A03EA00DB92FE /* controllers */,
 				A1FE927E1D51EFC70006EBAE /* Supporting Files */,
+				E52153611D99828000C14342 /* PreviewModel.h */,
+				E52153621D99828000C14342 /* PreviewModel.m */,
 			);
 			path = MechPal;
 			sourceTree = "<group>";
@@ -181,6 +229,8 @@
 			children = (
 				E53BD8F91D5A03DD00DB92FE /* ViewMechViewController.h */,
 				E53BD8FA1D5A03DD00DB92FE /* ViewMechViewController.m */,
+				E521535E1D997E4600C14342 /* PreviewMechViewController.h */,
+				E521535F1D997E4600C14342 /* PreviewMechViewController.m */,
 			);
 			name = controllers;
 			sourceTree = "<group>";
@@ -192,9 +242,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A1FE92AB1D51EFC70006EBAE /* Build configuration list for PBXNativeTarget "MechPal" */;
 			buildPhases = (
+				37DDD5D724173B0253E2FDF9 /* [CP] Check Pods Manifest.lock */,
 				A1FE92771D51EFC60006EBAE /* Sources */,
 				A1FE92781D51EFC60006EBAE /* Frameworks */,
 				A1FE92791D51EFC60006EBAE /* Resources */,
+				48B2E24A490700A8B1ABFE7C /* [CP] Embed Pods Frameworks */,
+				A61ECC850EE0853C51B1FC92 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -209,9 +262,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A1FE92AE1D51EFC70006EBAE /* Build configuration list for PBXNativeTarget "MechPalTests" */;
 			buildPhases = (
+				85D512AF301D279F71B739AD /* [CP] Check Pods Manifest.lock */,
 				A1FE92931D51EFC70006EBAE /* Sources */,
 				A1FE92941D51EFC70006EBAE /* Frameworks */,
 				A1FE92951D51EFC70006EBAE /* Resources */,
+				4D3C8EF430D00D672FA6D292 /* [CP] Embed Pods Frameworks */,
+				7EDB88986DC1F79649802ABB /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -227,9 +283,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A1FE92B11D51EFC70006EBAE /* Build configuration list for PBXNativeTarget "MechPalUITests" */;
 			buildPhases = (
+				09EF31C5273FFDADA383F735 /* [CP] Check Pods Manifest.lock */,
 				A1FE929E1D51EFC70006EBAE /* Sources */,
 				A1FE929F1D51EFC70006EBAE /* Frameworks */,
 				A1FE92A01D51EFC70006EBAE /* Resources */,
+				BE5E94492E92DF5668F24B67 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -317,6 +375,129 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		09EF31C5273FFDADA383F735 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		37DDD5D724173B0253E2FDF9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		48B2E24A490700A8B1ABFE7C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MechPal/Pods-MechPal-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4D3C8EF430D00D672FA6D292 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MechPalTests/Pods-MechPalTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7EDB88986DC1F79649802ABB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MechPalTests/Pods-MechPalTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		85D512AF301D279F71B739AD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A61ECC850EE0853C51B1FC92 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MechPal/Pods-MechPal-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BE5E94492E92DF5668F24B67 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MechPalUITests/Pods-MechPalUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A1FE92771D51EFC60006EBAE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -324,8 +505,10 @@
 			files = (
 				E53BD8FB1D5A03DD00DB92FE /* ViewMechViewController.m in Sources */,
 				A1FE92861D51EFC70006EBAE /* ViewController.m in Sources */,
+				E52153631D99828000C14342 /* PreviewModel.m in Sources */,
 				A1FE92831D51EFC70006EBAE /* AppDelegate.m in Sources */,
 				A1FE928C1D51EFC70006EBAE /* MechPal.xcdatamodeld in Sources */,
+				E52153601D997E4600C14342 /* PreviewMechViewController.m in Sources */,
 				A1FE92801D51EFC70006EBAE /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -465,9 +648,11 @@
 		};
 		A1FE92AC1D51EFC70006EBAE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A8AEE526322BB07A71D0F225 /* Pods-MechPal.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = MechPal/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ilabafrica.MechPal;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -476,9 +661,11 @@
 		};
 		A1FE92AD1D51EFC70006EBAE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D6B5393C5A5ED774E8CB797C /* Pods-MechPal.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = MechPal/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ilabafrica.MechPal;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -487,6 +674,7 @@
 		};
 		A1FE92AF1D51EFC70006EBAE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8EBEF88AA2C9186B00583C78 /* Pods-MechPalTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = MechPalTests/Info.plist;
@@ -499,6 +687,7 @@
 		};
 		A1FE92B01D51EFC70006EBAE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD95F9635436F689C259EC79 /* Pods-MechPalTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = MechPalTests/Info.plist;
@@ -511,6 +700,7 @@
 		};
 		A1FE92B21D51EFC70006EBAE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3032E330EF958547151AC6FE /* Pods-MechPalUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = MechPalUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -522,6 +712,7 @@
 		};
 		A1FE92B31D51EFC70006EBAE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 75252D33FDCF5BD64C04B8D0 /* Pods-MechPalUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = MechPalUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";

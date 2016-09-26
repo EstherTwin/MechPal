@@ -61,7 +61,7 @@
         <!--MECHANIC PROFILE-->
         <scene sceneID="oMI-JI-EnB">
             <objects>
-                <viewController id="bYx-ds-TXA" sceneMemberID="viewController">
+                <viewController id="bYx-ds-TXA" customClass="PreviewMechViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="WIQ-vP-OmG"/>
                         <viewControllerLayoutGuide type="bottom" id="0Xh-U8-Rfo"/>
@@ -75,7 +75,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7a6-et-JQD" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1077.8666666666666" y="667.39999999999998"/>
+            <point key="canvasLocation" x="1319" y="658"/>
         </scene>
         <!--VIEW MECHANICS-->
         <scene sceneID="9BZ-es-Rij">
@@ -94,12 +94,6 @@
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <items/>
                             </tabBar>
-                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" mapType="standard" showsUserLocation="YES" translatesAutoresizingMaskIntoConstraints="NO" id="CEb-VK-lFS">
-                                <rect key="frame" x="0.0" y="64" width="400" height="410"/>
-                                <connections>
-                                    <outlet property="delegate" destination="Wt9-Ci-beY" id="zb2-RC-jfs"/>
-                                </connections>
-                            </mapView>
                             <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="H08-tX-m4B">
                                 <rect key="frame" x="0.0" y="64" width="227" height="29"/>
                                 <segments>
@@ -121,6 +115,12 @@
                                     <action selector="zoomIn:" destination="Wt9-Ci-beY" eventType="touchUpInside" id="A42-cT-zaZ"/>
                                 </connections>
                             </button>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" mapType="standard" showsUserLocation="YES" translatesAutoresizingMaskIntoConstraints="NO" id="CEb-VK-lFS">
+                                <rect key="frame" x="0.0" y="64" width="400" height="410"/>
+                                <connections>
+                                    <outlet property="delegate" destination="Wt9-Ci-beY" id="zb2-RC-jfs"/>
+                                </connections>
+                            </mapView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -221,7 +221,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="aYo-fp-Caz" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1077.8666666666666" y="1367.9333333333334"/>
+            <point key="canvasLocation" x="1334" y="1382"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="apW-pp-pBj">
@@ -311,7 +311,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Qrl-Gr-Kz3" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="793.06666666666661" y="1351.8399999999999"/>
+            <point key="canvasLocation" x="853" y="1401"/>
         </scene>
         <!--VIEW ON MAP-->
         <scene sceneID="0DB-6g-er7">
