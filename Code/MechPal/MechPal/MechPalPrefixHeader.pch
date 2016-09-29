@@ -1,0 +1,15 @@
+//
+//  MechPalPrefixHeader.pch
+//  MechPal
+//
+//  Created by ilabafrica on 27/09/2016.
+//  Copyright © 2016 ilabafrica. All rights reserved.
+//
+
+#ifndef MechPalPrefixHeader_pch
+#define MechPalPrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* MechPalPrefixHeader_pch */
