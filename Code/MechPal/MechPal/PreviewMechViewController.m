@@ -7,16 +7,26 @@
 //
 
 #import "PreviewMechViewController.h"
+#import "ViewMechViewController.h"
 
 @interface PreviewMechViewController ()
 
 @end
 
 @implementation PreviewMechViewController
+@synthesize PreviewModel=_PreviewModel;
+@synthesize name=_name;
+@synthesize icon=_icon;
+@synthesize detail=_detail;
+@synthesize contact=_contact;
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    [_icon setImage:[UIImage imageNamed: @"mech1.jpeg"]];
+    [_detail setText:_PreviewModel.snippet];
+    [_name setText:_PreviewModel.title];
+    
 }
 
 - (void)didReceiveMemoryWarning {

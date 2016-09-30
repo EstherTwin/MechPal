@@ -20,6 +20,7 @@
 - (void)saveContext;
 - (NSURL *)applicationDocumentsDirectory;
 
++ (NSURLConnection*)initiateURLConnection:(NSURL*)jsonUrl;
 
 @end
 

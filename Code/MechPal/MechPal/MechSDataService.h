@@ -7,7 +7,9 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "BaseDataService.h"
 
-@interface MechSDataService : NSObject
+@interface MechSDataService : BaseDataService
+// -(NSMutableArray *) getSearchedFilmFromAPI:(NSString *)searchParam;
 
 @end

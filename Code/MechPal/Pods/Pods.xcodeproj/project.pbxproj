@@ -362,17 +362,18 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		4581C5AA10B3DA173A98151B4768A0BB /* Release */ = {
+		343B894E6A6E29F26DC696282A4E1244 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5710C58B9CC838B1539FA8798359AAA2 /* Pods-MechPalTests.release.xcconfig */;
+			baseConfigurationReference = 0DFAB48CE6989B1C526620B2AC9FCC0C /* Pods-MechPalUITests.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MACH_O_TYPE = staticlib;
-				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -381,7 +382,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 			};
-			name = Release;
+			name = Debug;
 		};
 		46EE69AF77A148AF92860F097B5698B1 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -425,15 +426,60 @@
 			};
 			name = Debug;
 		};
-		5372C6C511B002E9B3EFEEF65A8FE5E5 /* Debug */ = {
+		5E5C797A230AAC845D58C05D90940127 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C3089564023B8783CF185BB03F75D23 /* Pods-MechPal.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		605154B71D90C6AF768E0E2EAB4D7CEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5710C58B9CC838B1539FA8798359AAA2 /* Pods-MechPalTests.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		6AAFEF1EE5F186C37BAC59A98F19202F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 1CF11A6D1299720B1AEB9E3536555D08 /* Pods-MechPal.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MACH_O_TYPE = staticlib;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
@@ -445,48 +491,6 @@
 				SKIP_INSTALL = YES;
 			};
 			name = Debug;
-		};
-		5802E9C8505A471EC14BB131CC68D88B /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9B33CE2B7F2B5E4FE73B8E4EEA754B3D /* Pods-MechPalUITests.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
-				MACH_O_TYPE = staticlib;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
-		6C8025830DE4C5C25A37BDBD6B89BFA7 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7C3089564023B8783CF185BB03F75D23 /* Pods-MechPal.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
-				MACH_O_TYPE = staticlib;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
 		};
 		7A156876A8824526ED495550DF098FA1 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -526,15 +530,16 @@
 			};
 			name = Release;
 		};
-		89BAD6742DE9CB456A8E3B1509F5A532 /* Debug */ = {
+		9F2BC9E7DE0C398E125621AAC0C5BF2C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 61E3525F42A7363324DE3FE0A3605C94 /* Pods-MechPalTests.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MACH_O_TYPE = staticlib;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
@@ -547,17 +552,18 @@
 			};
 			name = Debug;
 		};
-		C34990A04B69A408B1BD04172A690AA1 /* Debug */ = {
+		B829174B766252F99F6D3A3962F222A0 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0DFAB48CE6989B1C526620B2AC9FCC0C /* Pods-MechPalUITests.debug.xcconfig */;
+			baseConfigurationReference = 9B33CE2B7F2B5E4FE73B8E4EEA754B3D /* Pods-MechPalUITests.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MACH_O_TYPE = staticlib;
-				MTL_ENABLE_DEBUG_INFO = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -566,7 +572,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 			};
-			name = Debug;
+			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
@@ -583,8 +589,8 @@
 		4DB4598686FB970602F88E91EB91CB85 /* Build configuration list for PBXNativeTarget "Pods-MechPal" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5372C6C511B002E9B3EFEEF65A8FE5E5 /* Debug */,
-				6C8025830DE4C5C25A37BDBD6B89BFA7 /* Release */,
+				6AAFEF1EE5F186C37BAC59A98F19202F /* Debug */,
+				5E5C797A230AAC845D58C05D90940127 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -592,8 +598,8 @@
 		68AF26BE7D97C941586CCA59C50A1F43 /* Build configuration list for PBXNativeTarget "Pods-MechPalTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				89BAD6742DE9CB456A8E3B1509F5A532 /* Debug */,
-				4581C5AA10B3DA173A98151B4768A0BB /* Release */,
+				9F2BC9E7DE0C398E125621AAC0C5BF2C /* Debug */,
+				605154B71D90C6AF768E0E2EAB4D7CEA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -601,8 +607,8 @@
 		F960CC0B539EECD6154669828D97E5A3 /* Build configuration list for PBXNativeTarget "Pods-MechPalUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C34990A04B69A408B1BD04172A690AA1 /* Debug */,
-				5802E9C8505A471EC14BB131CC68D88B /* Release */,
+				343B894E6A6E29F26DC696282A4E1244 /* Debug */,
+				B829174B766252F99F6D3A3962F222A0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

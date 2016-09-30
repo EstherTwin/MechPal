@@ -11,5 +11,18 @@
 
 // Include any system framework and library headers here that should be included in all compilation units.
 // You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#define kName @"name"
+#define kContacts @"contacts"
+#define kDetails @"details"
+#define kLatitude @"latitude"
+#define kLongitude @"longitude"
+#define kPath @"path"
+
+//url
+#define kBaseUrl @"BaseUrl"
+
+
+
+
 
 #endif /* MechPalPrefixHeader_pch */

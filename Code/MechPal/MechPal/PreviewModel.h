@@ -9,8 +9,13 @@
 #import <Foundation/Foundation.h>
 
 @interface PreviewModel : NSObject
-@property (nonatomic, strong) NSString *title; // name of the event;
+@property (nonatomic, strong) NSString *title;
+@property (nonatomic, strong) NSString *position; // name of the event;
 @property (nonatomic, strong) NSString *snippet; //event details
 @property (nonatomic, strong) NSString *icon;
+
+//@property (strong, nonatomic) NSMutableArray *mech;
+
+//-(instancetype) initWithAttributes: (NSDictionary *)attributes;
 
 @end

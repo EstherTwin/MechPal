@@ -12,6 +12,30 @@
 
 @synthesize title= _title;
 @synthesize snippet= _snippet;
+@synthesize position=_position;
 @synthesize icon= _icon;
+
+//-(NSMutableArray *)films{
+//    if (!_mech) {
+//        _mech = [[NSMutableArray alloc] init];
+//    }
+//    return _mech;
+//}
+//
+//-(instancetype) initWithAttributes:(NSDictionary *)attributes{
+//    self = [super init];
+//    
+//    if (self) {
+//        self.title = [attributes objectForKey:@"name"];
+//        self.snippet = [attributes objectForKey:kDetails];
+//        self.icon = [attributes objectForKey:kPath];
+//        
+//        
+//    }
+//    
+//    return self;
+//}
+
+
 
 @end
